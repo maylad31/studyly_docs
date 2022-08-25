@@ -1,0 +1,1947 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "DTD/xhtml1-strict.dtd">
+<html>
+  
+  <head>
+    
+    <title>All Documents</title>
+    <meta name="generator" content="pydoctor 22.7.0"> 
+        
+    </meta>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="apidocs.css" />
+    <link rel="stylesheet" type="text/css" href="extra.css" />
+</head>
+  <body>
+    
+
+    
+  
+  <div class="container-fluid">
+
+
+    <div class="navbar-header">
+      
+      <div class="navlinks">
+        <span class="navbar-brand">
+          studyly <a href="index.html">API Documentation</a>
+        </span>
+
+        <a href="moduleIndex.html">
+          Modules
+        </a>
+
+        <a href="classIndex.html">
+          Classes
+        </a>
+
+        <a href="nameIndex.html">
+          Names
+        </a>
+
+        <div id="search-box-container">
+          <div class="input-group">
+            <input id="search-box" type="search" name="search-query" placeholder="Search..." aria-label="Search" minlength="2" class="form-control" autocomplete="off" />
+            
+            <span class="input-group-btn">
+              <a style="display: none;" class="btn btn-default" id="search-clear-button" title="Clear" onclick="clearSearch()"><img src="fonts/x-circle.svg" alt="Clear" /></a>
+              <a class="btn btn-default" id="search-help-button" title="Help" onclick="toggleSearchHelpText()"><img src="fonts/info.svg" alt="Help" /></a>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="search-results-container" style="display: none;">
+        
+        <div id="search-buttons">
+          <span class="label label-default" id="search-docstrings-button">
+          <label class="checkbox-inline">
+            <input type="checkbox" id="toggle-search-in-docstrings-checkbox" value="false" onclick="toggleSearchInDocstrings()">
+              search in docstrings
+            </input>
+          </label>
+          </span>
+          
+        </div>
+        
+        <noscript>
+            <h1>Cannot search: JavaScript is not supported/enabled in your browser.</h1>
+        </noscript>
+
+        <div class="hint" id="search-help-box">
+          <p class="rst-last">
+      
+            Search bar offers the following options:
+            <ul>   
+                <li>
+                  <strong>Term presence.</strong> The below example searches for documents that 
+                    must contain “foo”, might contain “bar” and must not contain “baz”: <code>+foo bar -baz</code>
+                </li> 
+
+                <li>
+                  <strong>Wildcards.</strong> The below example searches for documents with words beginning with “foo”: <code>foo*</code>
+                </li> 
+
+                <li>
+                  <strong>Search in specific fields.</strong> The following search matches all objects 
+                  in "twisted.mail" that matches “search”: <code>+qname:twisted.mail.* +search</code>
+
+                  <p>
+                    Possible fields: 'name', 'qname' (fully qualified name), 'docstring', and 'kind'.
+                    Last two fields are only applicable if "search in docstrings" is enabled.
+                  </p>
+                </li>
+
+                <li>
+                  <strong>Fuzzy matches.</strong> The following search matches all documents 
+                  that have a word within 1 edit distance of “foo”: <code>foo~1</code>
+                </li>
+            </ul>
+
+          </p>
+        </div>
+
+        <div id="search-status"> </div>
+
+        <div class="warning" id="search-warn-box" style="display: none;">
+          <p class="rst-last"><span id="search-warn"></span></p>
+        </div>
+
+        <table id="search-results">
+          <!-- Filled dynamically by JS -->
+        </table>
+        
+        <div style="margin-top: 8px;">
+          <p>Results provided by <a href="https://lunrjs.com">Lunr.js</a></p>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+    
+    
+    <div class="container">
+      <h1>All Documents</h1>
+
+       <ul>
+          <li id="app">
+            
+            <div class="fullName">app</div>
+            <div class="url">index.html</div>
+            <div class="type">Package</div>
+            <div class="kind">Package</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No package docstring; 12/14 modules, 0/1 package documented</span></div>
+          </li><li id="app.classes">
+            
+            <div class="fullName">app<wbr></wbr>.classes</div>
+            <div class="url">app.classes.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">class definitions for studyly</div>
+          </li><li id="app.constants">
+            
+            <div class="fullName">app<wbr></wbr>.constants</div>
+            <div class="url">app.constants.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">constants</div>
+          </li><li id="app.correlation">
+            
+            <div class="fullName">app<wbr></wbr>.correlation</div>
+            <div class="url">app.correlation.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">correlation between tags</div>
+          </li><li id="app.glicko2">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2</div>
+            <div class="url">app.glicko2.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">Copyright (c) 2009 Ryan Kirkman Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software...</div>
+          </li><li id="app.load_teacher_feedback">
+            
+            <div class="fullName">app<wbr></wbr>.load<wbr></wbr>_teacher<wbr></wbr>_feedback</div>
+            <div class="url">app.load_teacher_feedback.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">loading teacher feedback</div>
+          </li><li id="app.merge">
+            
+            <div class="fullName">app<wbr></wbr>.merge</div>
+            <div class="url">app.merge.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">not relevant</div>
+          </li><li id="app.pgtomongo1">
+            
+            <div class="fullName">app<wbr></wbr>.pgtomongo1</div>
+            <div class="url">app.pgtomongo1.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">preprocessing to convert studyly data to mongo and then calculate ratings</div>
+          </li><li id="app.pipeline">
+            
+            <div class="fullName">app<wbr></wbr>.pipeline</div>
+            <div class="url">app.pipeline.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">basic pipeline to get data from studyly postgres, run glicko to get task ratings, optimize parameters and run glicko again to get student ratings</div>
+          </li><li id="app.studyly_api">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api</div>
+            <div class="url">app.studyly_api.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">studly api endpoints</div>
+          </li><li id="app.task_lists">
+            
+            <div class="fullName">app<wbr></wbr>.task<wbr></wbr>_lists</div>
+            <div class="url">app.task_lists.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">storing tasks and categories</div>
+          </li><li id="app.test">
+            
+            <div class="fullName">app<wbr></wbr>.test</div>
+            <div class="url">app.test.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api</div>
+            <div class="url">app.test_api.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.tests">
+            
+            <div class="fullName">app<wbr></wbr>.tests</div>
+            <div class="url">app.tests.html</div>
+            <div class="type">Package</div>
+            <div class="kind">Package</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.tests.test_studyly_api">
+            
+            <div class="fullName">app<wbr></wbr>.tests<wbr></wbr>.test<wbr></wbr>_studyly<wbr></wbr>_api</div>
+            <div class="url">app.tests.test_studyly_api.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.tree_structure">
+            
+            <div class="fullName">app<wbr></wbr>.tree<wbr></wbr>_structure</div>
+            <div class="url">app.tree_structure.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">defining tree structure and relevant methods</div>
+          </li><li id="app.utils">
+            
+            <div class="fullName">app<wbr></wbr>.utils</div>
+            <div class="url">app.utils.html</div>
+            <div class="type">Module</div>
+            <div class="kind">Module</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">helper functions</div>
+          </li><li id="app.classes.all_topics">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.all<wbr></wbr>_topics</div>
+            <div class="url">app.classes.html#all_topics</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.corr_dic">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.corr<wbr></wbr>_dic</div>
+            <div class="url">app.classes.html#corr_dic</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.tag_structure">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.tag<wbr></wbr>_structure</div>
+            <div class="url">app.classes.html#tag_structure</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.OverallRating">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Overall<wbr></wbr>Rating</div>
+            <div class="url">app.classes.OverallRating.html</div>
+            <div class="type">Class</div>
+            <div class="kind">Class</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">pydantic model defining overall attributes</div>
+          </li><li id="app.classes.OverallRating.ratings">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Overall<wbr></wbr>Rating<wbr></wbr>.ratings</div>
+            <div class="url">app.classes.OverallRating.html#ratings</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.OverallRating.rds">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Overall<wbr></wbr>Rating<wbr></wbr>.rds</div>
+            <div class="url">app.classes.OverallRating.html#rds</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.OverallRating.vols">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Overall<wbr></wbr>Rating<wbr></wbr>.vols</div>
+            <div class="url">app.classes.OverallRating.html#vols</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.OverallRating.exercises_ids">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Overall<wbr></wbr>Rating<wbr></wbr>.exercises<wbr></wbr>_ids</div>
+            <div class="url">app.classes.OverallRating.html#exercises_ids</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.OverallRating.percentages">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Overall<wbr></wbr>Rating<wbr></wbr>.percentages</div>
+            <div class="url">app.classes.OverallRating.html#percentages</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.OverallRating.solved_dates">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Overall<wbr></wbr>Rating<wbr></wbr>.solved<wbr></wbr>_dates</div>
+            <div class="url">app.classes.OverallRating.html#solved_dates</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.OverallRating.solved_times">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Overall<wbr></wbr>Rating<wbr></wbr>.solved<wbr></wbr>_times</div>
+            <div class="url">app.classes.OverallRating.html#solved_times</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.OverallRating.total">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Overall<wbr></wbr>Rating<wbr></wbr>.total</div>
+            <div class="url">app.classes.OverallRating.html#total</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.OverallRating.correct">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Overall<wbr></wbr>Rating<wbr></wbr>.correct</div>
+            <div class="url">app.classes.OverallRating.html#correct</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.OverallRating.level">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Overall<wbr></wbr>Rating<wbr></wbr>.level</div>
+            <div class="url">app.classes.OverallRating.html#level</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.OverallRating.feedback">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Overall<wbr></wbr>Rating<wbr></wbr>.feedback</div>
+            <div class="url">app.classes.OverallRating.html#feedback</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.OverallRating.solve_ids">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Overall<wbr></wbr>Rating<wbr></wbr>.solve<wbr></wbr>_ids</div>
+            <div class="url">app.classes.OverallRating.html#solve_ids</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating</div>
+            <div class="url">app.classes.TagRating.html</div>
+            <div class="type">Class</div>
+            <div class="kind">Class</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">pydantic model defining attributes of a tag</div>
+          </li><li id="app.classes.TagRating.ratings">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.ratings</div>
+            <div class="url">app.classes.TagRating.html#ratings</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.weighted_ratings">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.weighted<wbr></wbr>_ratings</div>
+            <div class="url">app.classes.TagRating.html#weighted_ratings</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.predicted_ratings">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.predicted<wbr></wbr>_ratings</div>
+            <div class="url">app.classes.TagRating.html#predicted_ratings</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.rds">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.rds</div>
+            <div class="url">app.classes.TagRating.html#rds</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.vols">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.vols</div>
+            <div class="url">app.classes.TagRating.html#vols</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.exercises_ids">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.exercises<wbr></wbr>_ids</div>
+            <div class="url">app.classes.TagRating.html#exercises_ids</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.percentages">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.percentages</div>
+            <div class="url">app.classes.TagRating.html#percentages</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.streak_boost">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.streak<wbr></wbr>_boost</div>
+            <div class="url">app.classes.TagRating.html#streak_boost</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.hint_boost">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.hint<wbr></wbr>_boost</div>
+            <div class="url">app.classes.TagRating.html#hint_boost</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.time_penalty">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.time<wbr></wbr>_penalty</div>
+            <div class="url">app.classes.TagRating.html#time_penalty</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.corr_boost">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.corr<wbr></wbr>_boost</div>
+            <div class="url">app.classes.TagRating.html#corr_boost</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.rec_boost">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.rec<wbr></wbr>_boost</div>
+            <div class="url">app.classes.TagRating.html#rec_boost</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.solved_dates">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.solved<wbr></wbr>_dates</div>
+            <div class="url">app.classes.TagRating.html#solved_dates</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.solved_times">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.solved<wbr></wbr>_times</div>
+            <div class="url">app.classes.TagRating.html#solved_times</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.total">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.total</div>
+            <div class="url">app.classes.TagRating.html#total</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.correct">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.correct</div>
+            <div class="url">app.classes.TagRating.html#correct</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.level">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.level</div>
+            <div class="url">app.classes.TagRating.html#level</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.feedback">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.feedback</div>
+            <div class="url">app.classes.TagRating.html#feedback</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.solve_ids">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.solve<wbr></wbr>_ids</div>
+            <div class="url">app.classes.TagRating.html#solve_ids</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.example_ids">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.example<wbr></wbr>_ids</div>
+            <div class="url">app.classes.TagRating.html#example_ids</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.TagRating.task_nrs">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Tag<wbr></wbr>Rating<wbr></wbr>.task<wbr></wbr>_nrs</div>
+            <div class="url">app.classes.TagRating.html#task_nrs</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.Student">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Student</div>
+            <div class="url">app.classes.Student.html</div>
+            <div class="type">Class</div>
+            <div class="kind">Class</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">for information related to a student</div>
+          </li><li id="app.classes.Student.sid">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Student<wbr></wbr>.sid</div>
+            <div class="url">app.classes.Student.html#sid</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.Student.overall_rating">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Student<wbr></wbr>.overall<wbr></wbr>_rating</div>
+            <div class="url">app.classes.Student.html#overall_rating</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.Student.tag_ratings">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Student<wbr></wbr>.tag<wbr></wbr>_ratings</div>
+            <div class="url">app.classes.Student.html#tag_ratings</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.Student.get_category">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Student<wbr></wbr>.get<wbr></wbr>_category</div>
+            <div class="url">app.classes.Student.html#get_category</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">returns category given rating value</div>
+          </li><li id="app.classes.Student.get_feedback">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Student<wbr></wbr>.get<wbr></wbr>_feedback</div>
+            <div class="url">app.classes.Student.html#get_feedback</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">generate feedback for a student for a tag</div>
+          </li><li id="app.classes.Student.update_rating">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Student<wbr></wbr>.update<wbr></wbr>_rating</div>
+            <div class="url">app.classes.Student.html#update_rating</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">update tag ratings associated with the exercise</div>
+          </li><li id="app.classes.Task">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Task</div>
+            <div class="url">app.classes.Task.html</div>
+            <div class="type">Class</div>
+            <div class="kind">Class</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">for information related to a task</div>
+          </li><li id="app.classes.Task.tid">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Task<wbr></wbr>.tid</div>
+            <div class="url">app.classes.Task.html#tid</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.Task.tags">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Task<wbr></wbr>.tags</div>
+            <div class="url">app.classes.Task.html#tags</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.Task.rating">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Task<wbr></wbr>.rating</div>
+            <div class="url">app.classes.Task.html#rating</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Instance Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.Task.rd">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Task<wbr></wbr>.rd</div>
+            <div class="url">app.classes.Task.html#rd</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Instance Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.Task.vol">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Task<wbr></wbr>.vol</div>
+            <div class="url">app.classes.Task.html#vol</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Instance Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.Task.times">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Task<wbr></wbr>.times</div>
+            <div class="url">app.classes.Task.html#times</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.classes.Task.update_rating">
+            
+            <div class="fullName">app<wbr></wbr>.classes<wbr></wbr>.<wbr></wbr>Task<wbr></wbr>.update<wbr></wbr>_rating</div>
+            <div class="url">app.classes.Task.html#update_rating</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">update tag ratings associated with the exercise</div>
+          </li><li id="app.constants.STUDENT_LEVELS_DIC">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.STUDENT<wbr></wbr>_LEVELS<wbr></wbr>_DIC</div>
+            <div class="url">app.constants.html#STUDENT_LEVELS_DIC</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Constant</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.STUDENT_LEVELS">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.STUDENT<wbr></wbr>_LEVELS</div>
+            <div class="url">app.constants.html#STUDENT_LEVELS</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Constant</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.FEEDBACK_LEVELS">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.FEEDBACK<wbr></wbr>_LEVELS</div>
+            <div class="url">app.constants.html#FEEDBACK_LEVELS</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Constant</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.MAX_LEN_STUDENT">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.MAX<wbr></wbr>_LEN<wbr></wbr>_STUDENT</div>
+            <div class="url">app.constants.html#MAX_LEN_STUDENT</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Constant</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.THRESHOLD">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.THRESHOLD</div>
+            <div class="url">app.constants.html#THRESHOLD</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Constant</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.DATABASE_URI">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.DATABASE<wbr></wbr>_URI</div>
+            <div class="url">app.constants.html#DATABASE_URI</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Constant</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.MONGO_URL">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.MONGO<wbr></wbr>_URL</div>
+            <div class="url">app.constants.html#MONGO_URL</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Constant</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.MONGO_DB_NAME">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.MONGO<wbr></wbr>_DB<wbr></wbr>_NAME</div>
+            <div class="url">app.constants.html#MONGO_DB_NAME</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Constant</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.MONGO_DEFAULT_COLLECTION">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.MONGO<wbr></wbr>_DEFAULT<wbr></wbr>_COLLECTION</div>
+            <div class="url">app.constants.html#MONGO_DEFAULT_COLLECTION</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Constant</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.MONGO_COMBINED_COLLECTION">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.MONGO<wbr></wbr>_COMBINED<wbr></wbr>_COLLECTION</div>
+            <div class="url">app.constants.html#MONGO_COMBINED_COLLECTION</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Constant</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.FEEDBACK_FILE">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.FEEDBACK<wbr></wbr>_FILE</div>
+            <div class="url">app.constants.html#FEEDBACK_FILE</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Constant</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.LAST_FEW_FEEDBACK">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.LAST<wbr></wbr>_FEW<wbr></wbr>_FEEDBACK</div>
+            <div class="url">app.constants.html#LAST_FEW_FEEDBACK</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Constant</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.uncertain_level">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.uncertain<wbr></wbr>_level</div>
+            <div class="url">app.constants.html#uncertain_level</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.no_change_bad">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.no<wbr></wbr>_change<wbr></wbr>_bad</div>
+            <div class="url">app.constants.html#no_change_bad</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.no_change_good">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.no<wbr></wbr>_change<wbr></wbr>_good</div>
+            <div class="url">app.constants.html#no_change_good</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.no_change_neutral">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.no<wbr></wbr>_change<wbr></wbr>_neutral</div>
+            <div class="url">app.constants.html#no_change_neutral</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.downgrade">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.downgrade</div>
+            <div class="url">app.constants.html#downgrade</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.upgrade">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.upgrade</div>
+            <div class="url">app.constants.html#upgrade</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.level_feedback">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.level<wbr></wbr>_feedback</div>
+            <div class="url">app.constants.html#level_feedback</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.streak_pos">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.streak<wbr></wbr>_pos</div>
+            <div class="url">app.constants.html#streak_pos</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.streak_neg">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.streak<wbr></wbr>_neg</div>
+            <div class="url">app.constants.html#streak_neg</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.hint_pos">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.hint<wbr></wbr>_pos</div>
+            <div class="url">app.constants.html#hint_pos</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.hint_neg">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.hint<wbr></wbr>_neg</div>
+            <div class="url">app.constants.html#hint_neg</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.time_pos">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.time<wbr></wbr>_pos</div>
+            <div class="url">app.constants.html#time_pos</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.constants.time_neg">
+            
+            <div class="fullName">app<wbr></wbr>.constants<wbr></wbr>.time<wbr></wbr>_neg</div>
+            <div class="url">app.constants.html#time_neg</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.correlation.get_correlation">
+            
+            <div class="fullName">app<wbr></wbr>.correlation<wbr></wbr>.get<wbr></wbr>_correlation</div>
+            <div class="url">app.correlation.html#get_correlation</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.correlation.load_correlation_dic">
+            
+            <div class="fullName">app<wbr></wbr>.correlation<wbr></wbr>.load<wbr></wbr>_correlation<wbr></wbr>_dic</div>
+            <div class="url">app.correlation.html#load_correlation_dic</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.glicko2.Player">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player</div>
+            <div class="url">app.glicko2.Player.html</div>
+            <div class="type">Class</div>
+            <div class="kind">Class</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No class docstring; 0/3 instance variable, 0/3 class variable, 8/14 methods documented</span></div>
+          </li><li id="app.glicko2.Player._tau">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>._tau</div>
+            <div class="url">app.glicko2.Player.html#_tau</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PRIVATE</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.glicko2.Player.getRating">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>.get<wbr></wbr>Rating</div>
+            <div class="url">app.glicko2.Player.html#getRating</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.glicko2.Player.setRating">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>.set<wbr></wbr>Rating</div>
+            <div class="url">app.glicko2.Player.html#setRating</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.glicko2.Player.__rating">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>.__rating</div>
+            <div class="url">app.glicko2.Player.html#__rating</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Instance Variable</div>
+            <div class="privacy">PRIVATE</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.glicko2.Player.rating">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>.rating</div>
+            <div class="url">app.glicko2.Player.html#rating</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.glicko2.Player.getRd">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>.get<wbr></wbr>Rd</div>
+            <div class="url">app.glicko2.Player.html#getRd</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.glicko2.Player.setRd">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>.set<wbr></wbr>Rd</div>
+            <div class="url">app.glicko2.Player.html#setRd</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.glicko2.Player.__rd">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>.__rd</div>
+            <div class="url">app.glicko2.Player.html#__rd</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Instance Variable</div>
+            <div class="privacy">PRIVATE</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.glicko2.Player.rd">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>.rd</div>
+            <div class="url">app.glicko2.Player.html#rd</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.glicko2.Player.__init__">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>.__init__</div>
+            <div class="url">app.glicko2.Player.html#__init__</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.glicko2.Player.vol">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>.vol</div>
+            <div class="url">app.glicko2.Player.html#vol</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Instance Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.glicko2.Player._preRatingRD">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>._pre<wbr></wbr>Rating<wbr></wbr>RD</div>
+            <div class="url">app.glicko2.Player.html#_preRatingRD</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PRIVATE</div>
+            <div class="summary">Calculates and updates the player's rating deviation for the beginning of a rating period.</div>
+          </li><li id="app.glicko2.Player.update_player">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>.update<wbr></wbr>_player</div>
+            <div class="url">app.glicko2.Player.html#update_player</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">Calculates the new rating and rating deviation of the player.</div>
+          </li><li id="app.glicko2.Player._newVol">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>._new<wbr></wbr>Vol</div>
+            <div class="url">app.glicko2.Player.html#_newVol</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PRIVATE</div>
+            <div class="summary">Calculating the new volatility as per the Glicko2 system.</div>
+          </li><li id="app.glicko2.Player._f">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>._f</div>
+            <div class="url">app.glicko2.Player.html#_f</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PRIVATE</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.glicko2.Player._delta">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>._delta</div>
+            <div class="url">app.glicko2.Player.html#_delta</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PRIVATE</div>
+            <div class="summary">The delta function of the Glicko2 system.</div>
+          </li><li id="app.glicko2.Player._v">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>._v</div>
+            <div class="url">app.glicko2.Player.html#_v</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PRIVATE</div>
+            <div class="summary">The v function of the Glicko2 system.</div>
+          </li><li id="app.glicko2.Player._E">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>._E</div>
+            <div class="url">app.glicko2.Player.html#_E</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PRIVATE</div>
+            <div class="summary">The Glicko E function.</div>
+          </li><li id="app.glicko2.Player._g">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>._g</div>
+            <div class="url">app.glicko2.Player.html#_g</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PRIVATE</div>
+            <div class="summary">The Glicko2 g(RD) function.</div>
+          </li><li id="app.glicko2.Player.did_not_compete">
+            
+            <div class="fullName">app<wbr></wbr>.glicko2<wbr></wbr>.<wbr></wbr>Player<wbr></wbr>.did<wbr></wbr>_not<wbr></wbr>_compete</div>
+            <div class="url">app.glicko2.Player.html#did_not_compete</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">Applies Step 6 of the algorithm. Use this for players who did not compete in the rating period. did_not_compete() -&gt; None</div>
+          </li><li id="app.load_teacher_feedback.save_teacher_feedback">
+            
+            <div class="fullName">app<wbr></wbr>.load<wbr></wbr>_teacher<wbr></wbr>_feedback<wbr></wbr>.save<wbr></wbr>_teacher<wbr></wbr>_feedback</div>
+            <div class="url">app.load_teacher_feedback.html#save_teacher_feedback</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">save teacher feedback to pickle files</div>
+          </li><li id="app.load_teacher_feedback.load_sample_dics">
+            
+            <div class="fullName">app<wbr></wbr>.load<wbr></wbr>_teacher<wbr></wbr>_feedback<wbr></wbr>.load<wbr></wbr>_sample<wbr></wbr>_dics</div>
+            <div class="url">app.load_teacher_feedback.html#load_sample_dics</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.merge.df">
+            
+            <div class="fullName">app<wbr></wbr>.merge<wbr></wbr>.df</div>
+            <div class="url">app.merge.html#df</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.merge.c">
+            
+            <div class="fullName">app<wbr></wbr>.merge<wbr></wbr>.c</div>
+            <div class="url">app.merge.html#c</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.merge.f">
+            
+            <div class="fullName">app<wbr></wbr>.merge<wbr></wbr>.f</div>
+            <div class="url">app.merge.html#f</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.merge.res">
+            
+            <div class="fullName">app<wbr></wbr>.merge<wbr></wbr>.res</div>
+            <div class="url">app.merge.html#res</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.merge.l2">
+            
+            <div class="fullName">app<wbr></wbr>.merge<wbr></wbr>.l2</div>
+            <div class="url">app.merge.html#l2</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.merge.error">
+            
+            <div class="fullName">app<wbr></wbr>.merge<wbr></wbr>.error</div>
+            <div class="url">app.merge.html#error</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.merge.params">
+            
+            <div class="fullName">app<wbr></wbr>.merge<wbr></wbr>.params</div>
+            <div class="url">app.merge.html#params</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.pgtomongo1.client">
+            
+            <div class="fullName">app<wbr></wbr>.pgtomongo1<wbr></wbr>.client</div>
+            <div class="url">app.pgtomongo1.html#client</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.pgtomongo1.engine">
+            
+            <div class="fullName">app<wbr></wbr>.pgtomongo1<wbr></wbr>.engine</div>
+            <div class="url">app.pgtomongo1.html#engine</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.pgtomongo1.connection">
+            
+            <div class="fullName">app<wbr></wbr>.pgtomongo1<wbr></wbr>.connection</div>
+            <div class="url">app.pgtomongo1.html#connection</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.pgtomongo1.dictionary_tasks_per_exercise">
+            
+            <div class="fullName">app<wbr></wbr>.pgtomongo1<wbr></wbr>.dictionary<wbr></wbr>_tasks<wbr></wbr>_per<wbr></wbr>_exercise</div>
+            <div class="url">app.pgtomongo1.html#dictionary_tasks_per_exercise</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.pgtomongo1.load_student">
+            
+            <div class="fullName">app<wbr></wbr>.pgtomongo1<wbr></wbr>.load<wbr></wbr>_student</div>
+            <div class="url">app.pgtomongo1.html#load_student</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">Loads a student from the database.</div>
+          </li><li id="app.pgtomongo1.load_task">
+            
+            <div class="fullName">app<wbr></wbr>.pgtomongo1<wbr></wbr>.load<wbr></wbr>_task</div>
+            <div class="url">app.pgtomongo1.html#load_task</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">Loads a task from the database.</div>
+          </li><li id="app.pgtomongo1.rebuild_db">
+            
+            <div class="fullName">app<wbr></wbr>.pgtomongo1<wbr></wbr>.rebuild<wbr></wbr>_db</div>
+            <div class="url">app.pgtomongo1.html#rebuild_db</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">run once to generate task ratings</div>
+          </li><li id="app.pgtomongo1.rebuild_db_again">
+            
+            <div class="fullName">app<wbr></wbr>.pgtomongo1<wbr></wbr>.rebuild<wbr></wbr>_db<wbr></wbr>_again</div>
+            <div class="url">app.pgtomongo1.html#rebuild_db_again</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">run again to generate student ratings</div>
+          </li><li id="app.pipeline.client">
+            
+            <div class="fullName">app<wbr></wbr>.pipeline<wbr></wbr>.client</div>
+            <div class="url">app.pipeline.html#client</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.pipeline.args">
+            
+            <div class="fullName">app<wbr></wbr>.pipeline<wbr></wbr>.args</div>
+            <div class="url">app.pipeline.html#args</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.pipeline.db">
+            
+            <div class="fullName">app<wbr></wbr>.pipeline<wbr></wbr>.db</div>
+            <div class="url">app.pipeline.html#db</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.pipeline.collection">
+            
+            <div class="fullName">app<wbr></wbr>.pipeline<wbr></wbr>.collection</div>
+            <div class="url">app.pipeline.html#collection</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.pipeline.SPACE">
+            
+            <div class="fullName">app<wbr></wbr>.pipeline<wbr></wbr>.SPACE</div>
+            <div class="url">app.pipeline.html#SPACE</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Constant</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.pipeline.objective">
+            
+            <div class="fullName">app<wbr></wbr>.pipeline<wbr></wbr>.objective</div>
+            <div class="url">app.pipeline.html#objective</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.load_student">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.load<wbr></wbr>_student</div>
+            <div class="url">app.studyly_api.html#load_student</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">Loads a student from the database.</div>
+          </li><li id="app.studyly_api.load_task">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.load<wbr></wbr>_task</div>
+            <div class="url">app.studyly_api.html#load_task</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">Loads a task from the database.</div>
+          </li><li id="app.studyly_api.clean_db">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.clean<wbr></wbr>_db</div>
+            <div class="url">app.studyly_api.html#clean_db</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.output">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.output</div>
+            <div class="url">app.studyly_api.output.html</div>
+            <div class="type">Class</div>
+            <div class="kind">Class</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.studyly_api.output.status">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.output<wbr></wbr>.status</div>
+            <div class="url">app.studyly_api.output.html#status</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.output.message">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.output<wbr></wbr>.message</div>
+            <div class="url">app.studyly_api.output.html#message</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.historyOutput">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.history<wbr></wbr>Output</div>
+            <div class="url">app.studyly_api.historyOutput.html</div>
+            <div class="type">Class</div>
+            <div class="kind">Class</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.studyly_api.historyOutput.status">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.history<wbr></wbr>Output<wbr></wbr>.status</div>
+            <div class="url">app.studyly_api.historyOutput.html#status</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.historyOutput.student_id">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.history<wbr></wbr>Output<wbr></wbr>.student<wbr></wbr>_id</div>
+            <div class="url">app.studyly_api.historyOutput.html#student_id</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.historyOutput.tag_id">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.history<wbr></wbr>Output<wbr></wbr>.tag<wbr></wbr>_id</div>
+            <div class="url">app.studyly_api.historyOutput.html#tag_id</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.historyOutput.message">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.history<wbr></wbr>Output<wbr></wbr>.message</div>
+            <div class="url">app.studyly_api.historyOutput.html#message</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.app">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.app</div>
+            <div class="url">app.studyly_api.html#app</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.params">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.params</div>
+            <div class="url">app.studyly_api.html#params</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.StudentForm">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.<wbr></wbr>Student<wbr></wbr>Form</div>
+            <div class="url">app.studyly_api.StudentForm.html</div>
+            <div class="type">Class</div>
+            <div class="kind">Class</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.studyly_api.StudentForm.student_id">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.<wbr></wbr>Student<wbr></wbr>Form<wbr></wbr>.student<wbr></wbr>_id</div>
+            <div class="url">app.studyly_api.StudentForm.html#student_id</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.StudentForm.task_id">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.<wbr></wbr>Student<wbr></wbr>Form<wbr></wbr>.task<wbr></wbr>_id</div>
+            <div class="url">app.studyly_api.StudentForm.html#task_id</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.StudentForm.hint_taken">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.<wbr></wbr>Student<wbr></wbr>Form<wbr></wbr>.hint<wbr></wbr>_taken</div>
+            <div class="url">app.studyly_api.StudentForm.html#hint_taken</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.StudentForm.percentage">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.<wbr></wbr>Student<wbr></wbr>Form<wbr></wbr>.percentage</div>
+            <div class="url">app.studyly_api.StudentForm.html#percentage</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.StudentForm.date_time_started">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.<wbr></wbr>Student<wbr></wbr>Form<wbr></wbr>.date<wbr></wbr>_time<wbr></wbr>_started</div>
+            <div class="url">app.studyly_api.StudentForm.html#date_time_started</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.StudentForm.time_diff">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.<wbr></wbr>Student<wbr></wbr>Form<wbr></wbr>.time<wbr></wbr>_diff</div>
+            <div class="url">app.studyly_api.StudentForm.html#time_diff</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.update_ratings">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.update<wbr></wbr>_ratings</div>
+            <div class="url">app.studyly_api.html#update_ratings</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">update_ratings Takes in student_form</div>
+          </li><li id="app.studyly_api.create_nested">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.create<wbr></wbr>_nested</div>
+            <div class="url">app.studyly_api.html#create_nested</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.studyly_api.match_student_task">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.match<wbr></wbr>_student<wbr></wbr>_task</div>
+            <div class="url">app.studyly_api.html#match_student_task</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.get_historic_student">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.get<wbr></wbr>_historic<wbr></wbr>_student</div>
+            <div class="url">app.studyly_api.html#get_historic_student</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">returns historic evaluations of student for specific tag</div>
+          </li><li id="app.studyly_api.give_feedback">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.give<wbr></wbr>_feedback</div>
+            <div class="url">app.studyly_api.html#give_feedback</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">let teacher give feedback on the level evaluation by letting them set the "correct" level for a student</div>
+          </li><li id="app.studyly_api.TaskForm">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.<wbr></wbr>Task<wbr></wbr>Form</div>
+            <div class="url">app.studyly_api.TaskForm.html</div>
+            <div class="type">Class</div>
+            <div class="kind">Class</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.studyly_api.TaskForm.tid">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.<wbr></wbr>Task<wbr></wbr>Form<wbr></wbr>.tid</div>
+            <div class="url">app.studyly_api.TaskForm.html#tid</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.TaskForm.tags">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.<wbr></wbr>Task<wbr></wbr>Form<wbr></wbr>.tags</div>
+            <div class="url">app.studyly_api.TaskForm.html#tags</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Class Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.add_task">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.add<wbr></wbr>_task</div>
+            <div class="url">app.studyly_api.html#add_task</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">Adds a new task to our database</div>
+          </li><li id="app.studyly_api.add_task_tag">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.add<wbr></wbr>_task<wbr></wbr>_tag</div>
+            <div class="url">app.studyly_api.html#add_task_tag</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">adds a tag to that task. This tag always has to be a leaf node, meaning it cannot have any further subtags</div>
+          </li><li id="app.studyly_api.add_tag_relation">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.add<wbr></wbr>_tag<wbr></wbr>_relation</div>
+            <div class="url">app.studyly_api.html#add_tag_relation</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">if a new tag is created, add it to it's parent tag</div>
+          </li><li id="app.studyly_api.remove_tag_relation">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.remove<wbr></wbr>_tag<wbr></wbr>_relation</div>
+            <div class="url">app.studyly_api.html#remove_tag_relation</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">removes tag relation from tree (only possible if removed tag has no child notes)</div>
+          </li><li id="app.studyly_api.add_student">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.add<wbr></wbr>_student</div>
+            <div class="url">app.studyly_api.html#add_student</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">Adds a new student to our database</div>
+          </li><li id="app.studyly_api.remove_student">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.remove<wbr></wbr>_student</div>
+            <div class="url">app.studyly_api.html#remove_student</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.remove_task">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.remove<wbr></wbr>_task</div>
+            <div class="url">app.studyly_api.html#remove_task</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.predict_rating">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.predict<wbr></wbr>_rating</div>
+            <div class="url">app.studyly_api.html#predict_rating</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.studyly_api.startup_event">
+            
+            <div class="fullName">app<wbr></wbr>.studyly<wbr></wbr>_api<wbr></wbr>.startup<wbr></wbr>_event</div>
+            <div class="url">app.studyly_api.html#startup_event</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.task_lists.store_tasks_and_categories">
+            
+            <div class="fullName">app<wbr></wbr>.task<wbr></wbr>_lists<wbr></wbr>.store<wbr></wbr>_tasks<wbr></wbr>_and<wbr></wbr>_categories</div>
+            <div class="url">app.task_lists.html#store_tasks_and_categories</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">to store category ids associated with a particular task,so like task_id: corresponding categories</div>
+          </li><li id="app.task_lists.load_tasks_and_categories">
+            
+            <div class="fullName">app<wbr></wbr>.task<wbr></wbr>_lists<wbr></wbr>.load<wbr></wbr>_tasks<wbr></wbr>_and<wbr></wbr>_categories</div>
+            <div class="url">app.task_lists.html#load_tasks_and_categories</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.task_lists.store_exercises_and_tasks">
+            
+            <div class="fullName">app<wbr></wbr>.task<wbr></wbr>_lists<wbr></wbr>.store<wbr></wbr>_exercises<wbr></wbr>_and<wbr></wbr>_tasks</div>
+            <div class="url">app.task_lists.html#store_exercises_and_tasks</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.task_lists.load_exercises_and_tasks">
+            
+            <div class="fullName">app<wbr></wbr>.task<wbr></wbr>_lists<wbr></wbr>.load<wbr></wbr>_exercises<wbr></wbr>_and<wbr></wbr>_tasks</div>
+            <div class="url">app.task_lists.html#load_exercises_and_tasks</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.test.tokenizer">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>.tokenizer</div>
+            <div class="url">app.test.html#tokenizer</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test.model">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>.model</div>
+            <div class="url">app.test.html#model</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test.text">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>.text</div>
+            <div class="url">app.test.html#text</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test.get_paraphrased_sentences">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>.get<wbr></wbr>_paraphrased<wbr></wbr>_sentences</div>
+            <div class="url">app.test.html#get_paraphrased_sentences</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.client">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.client</div>
+            <div class="url">app.test_api.html#client</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_add_student">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_add<wbr></wbr>_student</div>
+            <div class="url">app.test_api.html#test_add_student</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_add_student_duplicate">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_add<wbr></wbr>_student<wbr></wbr>_duplicate</div>
+            <div class="url">app.test_api.html#test_add_student_duplicate</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_add_task">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_add<wbr></wbr>_task</div>
+            <div class="url">app.test_api.html#test_add_task</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_add_task_duplicate">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_add<wbr></wbr>_task<wbr></wbr>_duplicate</div>
+            <div class="url">app.test_api.html#test_add_task_duplicate</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_update_ratings">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_update<wbr></wbr>_ratings</div>
+            <div class="url">app.test_api.html#test_update_ratings</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_update_ratings_invalid_sid">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_update<wbr></wbr>_ratings<wbr></wbr>_invalid<wbr></wbr>_sid</div>
+            <div class="url">app.test_api.html#test_update_ratings_invalid_sid</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_update_ratings_invalid_tid">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_update<wbr></wbr>_ratings<wbr></wbr>_invalid<wbr></wbr>_tid</div>
+            <div class="url">app.test_api.html#test_update_ratings_invalid_tid</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_get_historic_student_with_date">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_get<wbr></wbr>_historic<wbr></wbr>_student<wbr></wbr>_with<wbr></wbr>_date</div>
+            <div class="url">app.test_api.html#test_get_historic_student_with_date</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_get_historic_student">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_get<wbr></wbr>_historic<wbr></wbr>_student</div>
+            <div class="url">app.test_api.html#test_get_historic_student</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_get_historic_student_reverse_dates">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_get<wbr></wbr>_historic<wbr></wbr>_student<wbr></wbr>_reverse<wbr></wbr>_dates</div>
+            <div class="url">app.test_api.html#test_get_historic_student_reverse_dates</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_get_historic_student_valid_tag_id">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_get<wbr></wbr>_historic<wbr></wbr>_student<wbr></wbr>_valid<wbr></wbr>_tag<wbr></wbr>_id</div>
+            <div class="url">app.test_api.html#test_get_historic_student_valid_tag_id</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_get_historic_student_invalid_tag_id">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_get<wbr></wbr>_historic<wbr></wbr>_student<wbr></wbr>_invalid<wbr></wbr>_tag<wbr></wbr>_id</div>
+            <div class="url">app.test_api.html#test_get_historic_student_invalid_tag_id</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_get_historic_student_valid_tag_id_and_valid_date">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_get<wbr></wbr>_historic<wbr></wbr>_student<wbr></wbr>_valid<wbr></wbr>_tag<wbr></wbr>_id<wbr></wbr>_and<wbr></wbr>_valid<wbr></wbr>_date</div>
+            <div class="url">app.test_api.html#test_get_historic_student_valid_tag_id_and_valid_date</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_add_tag_relation">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_add<wbr></wbr>_tag<wbr></wbr>_relation</div>
+            <div class="url">app.test_api.html#test_add_tag_relation</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_add_tag_relation_wrong_parent_id">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_add<wbr></wbr>_tag<wbr></wbr>_relation<wbr></wbr>_wrong<wbr></wbr>_parent<wbr></wbr>_id</div>
+            <div class="url">app.test_api.html#test_add_tag_relation_wrong_parent_id</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_remove_tag_relation_wrong_id">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_remove<wbr></wbr>_tag<wbr></wbr>_relation<wbr></wbr>_wrong<wbr></wbr>_id</div>
+            <div class="url">app.test_api.html#test_remove_tag_relation_wrong_id</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_remove_tag_relation">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_remove<wbr></wbr>_tag<wbr></wbr>_relation</div>
+            <div class="url">app.test_api.html#test_remove_tag_relation</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_remove_student">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_remove<wbr></wbr>_student</div>
+            <div class="url">app.test_api.html#test_remove_student</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_confirm_remove_student">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_confirm<wbr></wbr>_remove<wbr></wbr>_student</div>
+            <div class="url">app.test_api.html#test_confirm_remove_student</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.test_api.test_remove_task">
+            
+            <div class="fullName">app<wbr></wbr>.test<wbr></wbr>_api<wbr></wbr>.test<wbr></wbr>_remove<wbr></wbr>_task</div>
+            <div class="url">app.test_api.html#test_remove_task</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.tree_structure.Category">
+            
+            <div class="fullName">app<wbr></wbr>.tree<wbr></wbr>_structure<wbr></wbr>.<wbr></wbr>Category</div>
+            <div class="url">app.tree_structure.Category.html</div>
+            <div class="type">Class</div>
+            <div class="kind">Class</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.tree_structure.Category.__init__">
+            
+            <div class="fullName">app<wbr></wbr>.tree<wbr></wbr>_structure<wbr></wbr>.<wbr></wbr>Category<wbr></wbr>.__init__</div>
+            <div class="url">app.tree_structure.Category.html#__init__</div>
+            <div class="type">Function</div>
+            <div class="kind">Method</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.tree_structure.Category.category">
+            
+            <div class="fullName">app<wbr></wbr>.tree<wbr></wbr>_structure<wbr></wbr>.<wbr></wbr>Category<wbr></wbr>.category</div>
+            <div class="url">app.tree_structure.Category.html#category</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Instance Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.tree_structure.generate_tree_structure">
+            
+            <div class="fullName">app<wbr></wbr>.tree<wbr></wbr>_structure<wbr></wbr>.generate<wbr></wbr>_tree<wbr></wbr>_structure</div>
+            <div class="url">app.tree_structure.html#generate_tree_structure</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.tree_structure.load_tree">
+            
+            <div class="fullName">app<wbr></wbr>.tree<wbr></wbr>_structure<wbr></wbr>.load<wbr></wbr>_tree</div>
+            <div class="url">app.tree_structure.html#load_tree</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.tree_structure.save_tree">
+            
+            <div class="fullName">app<wbr></wbr>.tree<wbr></wbr>_structure<wbr></wbr>.save<wbr></wbr>_tree</div>
+            <div class="url">app.tree_structure.html#save_tree</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.tree_structure.check_and_create">
+            
+            <div class="fullName">app<wbr></wbr>.tree<wbr></wbr>_structure<wbr></wbr>.check<wbr></wbr>_and<wbr></wbr>_create</div>
+            <div class="url">app.tree_structure.html#check_and_create</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.tree_structure.remove_leave_node">
+            
+            <div class="fullName">app<wbr></wbr>.tree<wbr></wbr>_structure<wbr></wbr>.remove<wbr></wbr>_leave<wbr></wbr>_node</div>
+            <div class="url">app.tree_structure.html#remove_leave_node</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.utils.client">
+            
+            <div class="fullName">app<wbr></wbr>.utils<wbr></wbr>.client</div>
+            <div class="url">app.utils.html#client</div>
+            <div class="type">Attribute</div>
+            <div class="kind">Variable</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.utils.rephrase">
+            
+            <div class="fullName">app<wbr></wbr>.utils<wbr></wbr>.rephrase</div>
+            <div class="url">app.utils.html#rephrase</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">return template for feedback</div>
+          </li><li id="app.utils.train_and_save_model">
+            
+            <div class="fullName">app<wbr></wbr>.utils<wbr></wbr>.train<wbr></wbr>_and<wbr></wbr>_save<wbr></wbr>_model</div>
+            <div class="url">app.utils.html#train_and_save_model</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.utils.insert_ratings">
+            
+            <div class="fullName">app<wbr></wbr>.utils<wbr></wbr>.insert<wbr></wbr>_ratings</div>
+            <div class="url">app.utils.html#insert_ratings</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.utils.insert_overall_ratings">
+            
+            <div class="fullName">app<wbr></wbr>.utils<wbr></wbr>.insert<wbr></wbr>_overall<wbr></wbr>_ratings</div>
+            <div class="url">app.utils.html#insert_overall_ratings</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.utils.level_ranges">
+            
+            <div class="fullName">app<wbr></wbr>.utils<wbr></wbr>.level<wbr></wbr>_ranges</div>
+            <div class="url">app.utils.html#level_ranges</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.utils.student_levels">
+            
+            <div class="fullName">app<wbr></wbr>.utils<wbr></wbr>.student<wbr></wbr>_levels</div>
+            <div class="url">app.utils.html#student_levels</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary">get student's level</div>
+          </li><li id="app.utils.update_student_levels">
+            
+            <div class="fullName">app<wbr></wbr>.utils<wbr></wbr>.update<wbr></wbr>_student<wbr></wbr>_levels</div>
+            <div class="url">app.utils.html#update_student_levels</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">Undocumented</span></div>
+          </li><li id="app.utils.calculate_alpha">
+            
+            <div class="fullName">app<wbr></wbr>.utils<wbr></wbr>.calculate<wbr></wbr>_alpha</div>
+            <div class="url">app.utils.html#calculate_alpha</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.utils.calculate_beta">
+            
+            <div class="fullName">app<wbr></wbr>.utils<wbr></wbr>.calculate<wbr></wbr>_beta</div>
+            <div class="url">app.utils.html#calculate_beta</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li><li id="app.utils.sigmoid">
+            
+            <div class="fullName">app<wbr></wbr>.utils<wbr></wbr>.sigmoid</div>
+            <div class="url">app.utils.html#sigmoid</div>
+            <div class="type">Function</div>
+            <div class="kind">Function</div>
+            <div class="privacy">PUBLIC</div>
+            <div class="summary"><span class="undocumented">No summary</span></div>
+          </li>
+       </ul>
+    </div>
+  </body>
+</html>

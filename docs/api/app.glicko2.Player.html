@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "DTD/xhtml1-strict.dtd">
+<html>
+  
+
+  <head>
+    
+    <title>app.glicko2.Player</title>
+    <meta name="generator" content="pydoctor 22.7.0"> 
+        
+    </meta>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="apidocs.css" />
+    <link rel="stylesheet" type="text/css" href="extra.css" />
+</head>
+
+  <body>
+
+    
+
+    <nav class="navbar navbar-default mainnavbar">
+      
+  
+  <div class="container-fluid">
+
+
+    <div class="navbar-header">
+      
+      <div class="navlinks">
+        <span class="navbar-brand">
+          studyly <a href="index.html">API Documentation</a>
+        </span>
+
+        <a href="moduleIndex.html">
+          Modules
+        </a>
+
+        <a href="classIndex.html">
+          Classes
+        </a>
+
+        <a href="nameIndex.html">
+          Names
+        </a>
+
+        <div id="search-box-container">
+          <div class="input-group">
+            <input id="search-box" type="search" name="search-query" placeholder="Search..." aria-label="Search" minlength="2" class="form-control" autocomplete="off" />
+            
+            <span class="input-group-btn">
+              <a style="display: none;" class="btn btn-default" id="search-clear-button" title="Clear" onclick="clearSearch()"><img src="fonts/x-circle.svg" alt="Clear" /></a>
+              <a class="btn btn-default" id="search-help-button" title="Help" onclick="toggleSearchHelpText()"><img src="fonts/info.svg" alt="Help" /></a>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="search-results-container" style="display: none;">
+        
+        <div id="search-buttons">
+          <span class="label label-default" id="search-docstrings-button">
+          <label class="checkbox-inline">
+            <input type="checkbox" id="toggle-search-in-docstrings-checkbox" value="false" onclick="toggleSearchInDocstrings()">
+              search in docstrings
+            </input>
+          </label>
+          </span>
+          
+        </div>
+        
+        <noscript>
+            <h1>Cannot search: JavaScript is not supported/enabled in your browser.</h1>
+        </noscript>
+
+        <div class="hint" id="search-help-box">
+          <p class="rst-last">
+      
+            Search bar offers the following options:
+            <ul>   
+                <li>
+                  <strong>Term presence.</strong> The below example searches for documents that 
+                    must contain “foo”, might contain “bar” and must not contain “baz”: <code>+foo bar -baz</code>
+                </li> 
+
+                <li>
+                  <strong>Wildcards.</strong> The below example searches for documents with words beginning with “foo”: <code>foo*</code>
+                </li> 
+
+                <li>
+                  <strong>Search in specific fields.</strong> The following search matches all objects 
+                  in "twisted.mail" that matches “search”: <code>+qname:twisted.mail.* +search</code>
+
+                  <p>
+                    Possible fields: 'name', 'qname' (fully qualified name), 'docstring', and 'kind'.
+                    Last two fields are only applicable if "search in docstrings" is enabled.
+                  </p>
+                </li>
+
+                <li>
+                  <strong>Fuzzy matches.</strong> The following search matches all documents 
+                  that have a word within 1 edit distance of “foo”: <code>foo~1</code>
+                </li>
+            </ul>
+
+          </p>
+        </div>
+
+        <div id="search-status"> </div>
+
+        <div class="warning" id="search-warn-box" style="display: none;">
+          <p class="rst-last"><span id="search-warn"></span></p>
+        </div>
+
+        <table id="search-results">
+          <!-- Filled dynamically by JS -->
+        </table>
+        
+        <div style="margin-top: 8px;">
+          <p>Results provided by <a href="https://lunrjs.com">Lunr.js</a></p>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</nav>
+    
+    <div class="container-fluid">
+
+      <!-- Side navigation -->
+      <div class="sidebarcontainer" style="display: none;">
+        
+        <div class="sidebar"><nav class="sidebar">
+  
+
+  <div>
+
+      <div class="thingTitle">
+        <span>Class</span>
+        <code class="thisobject"><a href="app.glicko2.Player.html" class="internal-link" title="This class"><wbr></wbr>Player</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        
+        
+
+        <div class="childrenKindTitle">Methods</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__init__" class="internal-link" title="app.glicko2.Player.__init__">__init__</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#did_not_compete" class="internal-link" title="app.glicko2.Player.did_not_compete">did<wbr></wbr>_not<wbr></wbr>_compete</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#getRating" class="internal-link" title="app.glicko2.Player.getRating">get<wbr></wbr>Rating</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#getRd" class="internal-link" title="app.glicko2.Player.getRd">get<wbr></wbr>Rd</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#setRating" class="internal-link" title="app.glicko2.Player.setRating">set<wbr></wbr>Rating</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#setRd" class="internal-link" title="app.glicko2.Player.setRd">set<wbr></wbr>Rd</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#update_player" class="internal-link" title="app.glicko2.Player.update_player">update<wbr></wbr>_player</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_delta" class="internal-link" title="app.glicko2.Player._delta">_delta</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_E" class="internal-link" title="app.glicko2.Player._E">_E</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_f" class="internal-link" title="app.glicko2.Player._f">_f</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_g" class="internal-link" title="app.glicko2.Player._g">_g</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_newVol" class="internal-link" title="app.glicko2.Player._newVol">_new<wbr></wbr>Vol</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_preRatingRD" class="internal-link" title="app.glicko2.Player._preRatingRD">_pre<wbr></wbr>Rating<wbr></wbr>RD</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_v" class="internal-link" title="app.glicko2.Player._v">_v</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+
+        <div class="childrenKindTitle">Attributes</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#rating" class="internal-link" title="app.glicko2.Player.rating">rating</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#rd" class="internal-link" title="app.glicko2.Player.rd">rd</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#vol" class="internal-link" title="app.glicko2.Player.vol">vol</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_tau" class="internal-link" title="app.glicko2.Player._tau">_tau</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__rating" class="internal-link" title="app.glicko2.Player.__rating">__rating</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__rd" class="internal-link" title="app.glicko2.Player.__rd">__rd</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+        
+      </div>
+  </div><div>
+
+      <div class="thingTitle">
+        <span>Module</span>
+        <code><a href="app.glicko2.html" class="internal-link" title="The parent of this class">glicko2</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        <div class="childrenKindTitle">Classes</div>
+        <ul>
+    
+    <li class=" thisobject">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="app.glicko2.Player.html" class="internal-link" title="app.glicko2.Player"><wbr></wbr>Player</a></code>
+            </div>
+        
+
+    </li>
+</ul>
+
+        
+         
+
+        
+         
+
+        
+         
+
+        
+         
+        
+      </div>
+  </div>
+
+</nav>
+        </div>
+        <div id="collapseSideBar">
+          <a class="btn btn-link" onclick="toggleSideBarCollapse()" title="Toggle Sidebar Collapse">
+          </a>
+        </div> 
+        <script src="sidebartoggle.js" type="text/javascript"></script>
+       
+      </div>
+
+      <div id="main" class="">
+        
+
+        
+
+        <div class="page-header">
+          <h1 class="class"><code><code><a href="index.html" class="internal-link">app</a></code><wbr></wbr>.<code><a href="app.glicko2.html" class="internal-link" title="app.glicko2">glicko2</a></code><wbr></wbr>.<code><a href="app.glicko2.Player.html" class="internal-link" title="app.glicko2.Player">Player</a></code></code></h1>
+          <div id="showPrivate">
+            <button class="btn btn-link" onclick="togglePrivate()">Toggle Private API</button>
+          </div>
+        </div>
+
+        <div class="categoryHeader">
+          class documentation
+        </div>
+
+        <div class="extrasDocstring">
+          <p><code><span class="py-keyword">class</span> <span class="py-defname">Player</span>:</code></p>
+          <p><a href="classIndex.html#app.glicko2.Player">View In Hierarchy</a></p>
+        </div>
+
+        <div class="moduleDocstring">
+          <div><p class="undocumented">Undocumented</p></div>
+        </div>
+
+        <div id="splitTables">
+          <table class="children sortable" id="id10">
+  
+  
+  <tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#__init__" class="internal-link" title="app.glicko2.Player.__init__">__init__</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#did_not_compete" class="internal-link" title="app.glicko2.Player.did_not_compete">did<wbr></wbr>_not<wbr></wbr>_compete</a></code></td>
+    <td>Applies Step 6 of the algorithm. Use this for players who did not compete in the rating period. did_not_compete() -&gt; None</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#getRating" class="internal-link" title="app.glicko2.Player.getRating">get<wbr></wbr>Rating</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#getRd" class="internal-link" title="app.glicko2.Player.getRd">get<wbr></wbr>Rd</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#setRating" class="internal-link" title="app.glicko2.Player.setRating">set<wbr></wbr>Rating</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#setRd" class="internal-link" title="app.glicko2.Player.setRd">set<wbr></wbr>Rd</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#update_player" class="internal-link" title="app.glicko2.Player.update_player">update<wbr></wbr>_player</a></code></td>
+    <td>Calculates the new rating and rating deviation of the player.</td>
+  </tr><tr class="classvariable">
+    
+    <td>Class Variable</td>
+    <td><code><a href="#rating" class="internal-link" title="app.glicko2.Player.rating">rating</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="classvariable">
+    
+    <td>Class Variable</td>
+    <td><code><a href="#rd" class="internal-link" title="app.glicko2.Player.rd">rd</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#vol" class="internal-link" title="app.glicko2.Player.vol">vol</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_delta" class="internal-link" title="app.glicko2.Player._delta">_delta</a></code></td>
+    <td>The delta function of the Glicko2 system.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_E" class="internal-link" title="app.glicko2.Player._E">_E</a></code></td>
+    <td>The Glicko E function.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_f" class="internal-link" title="app.glicko2.Player._f">_f</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_g" class="internal-link" title="app.glicko2.Player._g">_g</a></code></td>
+    <td>The Glicko2 g(RD) function.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_newVol" class="internal-link" title="app.glicko2.Player._newVol">_new<wbr></wbr>Vol</a></code></td>
+    <td>Calculating the new volatility as per the Glicko2 system.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_preRatingRD" class="internal-link" title="app.glicko2.Player._preRatingRD">_pre<wbr></wbr>Rating<wbr></wbr>RD</a></code></td>
+    <td>Calculates and updates the player's rating deviation for the beginning of a rating period.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_v" class="internal-link" title="app.glicko2.Player._v">_v</a></code></td>
+    <td>The v function of the Glicko2 system.</td>
+  </tr><tr class="classvariable private">
+    
+    <td>Class Variable</td>
+    <td><code><a href="#_tau" class="internal-link" title="app.glicko2.Player._tau">_tau</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#__rating" class="internal-link" title="app.glicko2.Player.__rating">__rating</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#__rd" class="internal-link" title="app.glicko2.Player.__rd">__rd</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr>
+</table>
+          
+
+            
+        </div>
+
+        <div id="childList">
+          <div class="basemethod">
+  
+  
+  <a name="app.glicko2.Player.__init__">
+    
+  </a>
+  <a name="__init__">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">__init__</span>(self, rating=1500, rd=350, vol=0.06):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="app.glicko2.Player.did_not_compete">
+    
+  </a>
+  <a name="did_not_compete">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">did_not_compete</span>(self):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Applies Step 6 of the algorithm. Use this for
+players who did not compete in the rating period.
+did_not_compete() -&gt; None</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="app.glicko2.Player.getRating">
+    
+  </a>
+  <a name="getRating">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">getRating</span>(self):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="app.glicko2.Player.getRd">
+    
+  </a>
+  <a name="getRd">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">getRd</span>(self):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="app.glicko2.Player.setRating">
+    
+  </a>
+  <a name="setRating">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">setRating</span>(self, rating):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="app.glicko2.Player.setRd">
+    
+  </a>
+  <a name="setRd">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">setRd</span>(self, rd):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="app.glicko2.Player.update_player">
+    
+  </a>
+  <a name="update_player">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">update_player</span>(self, rating_list, RD_list, outcome_list):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Calculates the new rating and rating deviation of the player.</p>
+<p>update_player(list[int], list[int], list[bool]) -&gt; None</p>
+</div>
+  </div>
+</div><div class="baseclassvariable">
+  
+  
+  <a name="app.glicko2.Player.rating">
+    
+  </a>
+  <a name="rating">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">rating</span> =
+    
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseclassvariable">
+  
+  
+  <a name="app.glicko2.Player.rd">
+    
+  </a>
+  <a name="rd">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">rd</span> =
+    
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="app.glicko2.Player.vol">
+    
+  </a>
+  <a name="vol">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">vol</span> =
+    
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="app.glicko2.Player._delta">
+    
+  </a>
+  <a name="_delta">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_delta</span>(self, rating_list, RD_list, outcome_list, v):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The delta function of the Glicko2 system.</p>
+<p>_delta(list, list, list) -&gt; float</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="app.glicko2.Player._E">
+    
+  </a>
+  <a name="_E">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_E</span>(self, p2rating, p2RD):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The Glicko E function.</p>
+<p>_E(int) -&gt; float</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="app.glicko2.Player._f">
+    
+  </a>
+  <a name="_f">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_f</span>(self, x, delta, v, a):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="app.glicko2.Player._g">
+    
+  </a>
+  <a name="_g">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_g</span>(self, RD):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The Glicko2 g(RD) function.</p>
+<p>_g() -&gt; float</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="app.glicko2.Player._newVol">
+    
+  </a>
+  <a name="_newVol">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_newVol</span>(self, rating_list, RD_list, outcome_list, v):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Calculating the new volatility as per the Glicko2 system.</p>
+<p>Updated for Feb 22, 2012 revision. -Leo</p>
+<p>_newVol(list, list, list, float) -&gt; float</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="app.glicko2.Player._preRatingRD">
+    
+  </a>
+  <a name="_preRatingRD">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_preRatingRD</span>(self):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Calculates and updates the player's rating deviation for the
+beginning of a rating period.</p>
+<p>preRatingRD() -&gt; None</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="app.glicko2.Player._v">
+    
+  </a>
+  <a name="_v">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_v</span>(self, rating_list, RD_list):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The v function of the Glicko2 system.</p>
+<p>_v(list[int], list[int]) -&gt; float</p>
+</div>
+  </div>
+</div><div class="baseclassvariable private">
+  
+  
+  <a name="app.glicko2.Player._tau">
+    
+  </a>
+  <a name="_tau">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">_tau</span>: <code><a href="https://docs.python.org/3/library/functions.html#float" class="intersphinx-link">float</a></code> =
+    
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="app.glicko2.Player.__rating">
+    
+  </a>
+  <a name="__rating">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">__rating</span> =
+    
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="app.glicko2.Player.__rd">
+    
+  </a>
+  <a name="__rd">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">__rd</span> =
+    
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div>
+        </div>
+      
+      </div>
+    </div>
+
+    <footer class="navbar navbar-default">
+
+  
+  <div class="container">
+    <a href="index.html">API Documentation</a> for studyly,
+  generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a>
+    22.7.0 at 2022-08-25 15:03:41.
+  </div>
+
+  <!-- Search related scripts needs to be loaded at the end of HTML 
+    parsing not to introduce overhead and display HTML data asap -->
+  <script src="ajax.js" type="text/javascript"></script>
+  <script src="searchlib.js" type="text/javascript"></script>
+  <script src="search.js" type="text/javascript"></script>
+
+</footer>
+  
+    <script src="pydoctor.js" type="text/javascript"></script>
+
+  </body>
+</html>
